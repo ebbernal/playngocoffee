@@ -1,0 +1,11 @@
+E:\Work\playngo\playngo-coffee\CoffeeApplication\CoffeeApplication\bin\Debug\netcoreapp2.0\CoffeeApplication.deps.json
+E:\Work\playngo\playngo-coffee\CoffeeApplication\CoffeeApplication\bin\Debug\netcoreapp2.0\CoffeeApplication.runtimeconfig.json
+E:\Work\playngo\playngo-coffee\CoffeeApplication\CoffeeApplication\bin\Debug\netcoreapp2.0\CoffeeApplication.runtimeconfig.dev.json
+E:\Work\playngo\playngo-coffee\CoffeeApplication\CoffeeApplication\bin\Debug\netcoreapp2.0\CoffeeApplication.dll
+E:\Work\playngo\playngo-coffee\CoffeeApplication\CoffeeApplication\bin\Debug\netcoreapp2.0\CoffeeApplication.pdb
+E:\Work\playngo\playngo-coffee\CoffeeApplication\CoffeeApplication\obj\Debug\netcoreapp2.0\CoffeeApplication.csproj.CoreCompileInputs.cache
+E:\Work\playngo\playngo-coffee\CoffeeApplication\CoffeeApplication\obj\Debug\netcoreapp2.0\CoffeeApplication.AssemblyInfoInputs.cache
+E:\Work\playngo\playngo-coffee\CoffeeApplication\CoffeeApplication\obj\Debug\netcoreapp2.0\CoffeeApplication.AssemblyInfo.cs
+E:\Work\playngo\playngo-coffee\CoffeeApplication\CoffeeApplication\obj\Debug\netcoreapp2.0\CoffeeApplication.dll
+E:\Work\playngo\playngo-coffee\CoffeeApplication\CoffeeApplication\obj\Debug\netcoreapp2.0\CoffeeApplication.pdb
+E:\Work\playngo\playngo-coffee\CoffeeApplication\CoffeeApplication\obj\Debug\netcoreapp2.0\CoffeeApplication.csprojAssemblyReference.cache

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<CoffeeApplication.Models.Ingredient>
+
+@{
+    ViewData["Title"] = "Ingredient";
+}
+
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<h2>Ingredient</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Container)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Unit)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Container)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Unit)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID">Buy more</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<input type="hidden" id="CoffeeBean" data-value="@ViewBag.CoffeeBean" />
+<input type="hidden" id="Sugar" data-value="@ViewBag.Sugar" />
+<input type="hidden" id="Milk" data-value="@ViewBag.Milk" />
+
+<input type="hidden" id="BeanBag" data-value="@ViewBag.BeanBag" />
+<input type="hidden" id="SugarPack" data-value="@ViewBag.SugarPack" />
+<input type="hidden" id="MilkCarton" data-value="@ViewBag.MilkCarton" />
+
+<div id="pieChart" style="display: none"></div>
+<div id="barChartUnit" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<div id="barChartContainer" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
